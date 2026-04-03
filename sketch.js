@@ -19,9 +19,9 @@ function setup(){
         poses = results;
     })
 
-    thug = loadImage('spects.png');
-    cigar = loadImage('cigar.png');
-    chain = loadImage('chain.png');
+    thug = loadImage('images/spects.png');
+    cigar = loadImage('images/cigar.png');
+    chain = loadImage('images/chain.png');
 }
 function draw(){
     image(capture, 0, 0, 640, 480);
